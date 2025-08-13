@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>John Doe's Web Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <h1 style="text-align:center;">John Does web portfolio</h1>
+    <p style="text-align:center;">Showcasing HTML skills using only HTML</p>
+
+    <p style="text-align:center;">
+      <a href="#about">About Me</a>
+      <a href="#skills" style="margin-left:16px;">Skills</a>
+      <a href="#projects" style="margin-left:16px;">Projects</a>
+      <a href="#contact" style="margin-left:16px;">Contact</a>
+    </p>
+    <hr />
+  </header>
+
+  <section id="about">
+    <fieldset>
+      <legend><h2>About Me</h2></legend>
+
+      <p>
+        Hello i am john doe, a passionate web developer. i love building simple, semantic,
+        accessible and responsive websites using core web technologies.
+      </p>
+
+      <p>
+        I specialize in front-end development, especially HTML, CSS and JS.
+      </p>
+
+      <p style="text-align:center;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+             alt="HTML5 logo" width="240" />
+      </p>
+    </fieldset>
+  </section>
+  <table width="100%" cellpadding="12" cellspacing="0" border="0">
+    <tr valign="top">
+      <td width="50%">
+        <section id="skills">
+          <fieldset>
+            <legend><h2>Skills</h2></legend>
+            <ul>
+              <li>HTML5 and CSS</li>
+              <li>JavaScript</li>
+              <li>Responsive design</li>
+              <li>Git &amp; GitHub</li>
+            </ul>
+          </fieldset>
+
+          <fieldset>
+            <legend><h3>Skills levels</h3></legend>
+            <table width="100%" border="1" cellpadding="8" cellspacing="0">
+              <tr>
+                <th>SKILLS</th>
+                <th>LEVELS</th>
+              </tr>
+              <tr>
+                <td>HTML</td>
+                <td>Expert</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>Advanced</td>
+              </tr>
+              <tr>
+                <td>JAVASCRIPT</td>
+                <td>Intermediate</td>
+              </tr>
+            </table>
+          </fieldset>
+        </section>
+      </td>
+
+      <td width="50%">
+        <section id="projects">
+          <fieldset>
+            <legend><h2>PROJECT</h2></legend>
+            <ol>
+              <li>
+                <strong>portfolio</strong> – my personal portfolio built using pure HTML and CSS
+              </li>
+              <li>
+                <strong>Todo App</strong> – my personal app built using pure HTML and CSS
+              </li>
+              <li>
+                <strong>Weather app</strong> – built using pure HTML and CSS
+              </li>
+            </ol>
+
+            <h3>Screen&nbsp;shot</h3>
+            <p>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                   alt="CSS3 logo" width="120" />
+            </p>
+          </fieldset>
+        </section>
+      </td>
+    </tr>
+  </table>
+
+  <hr />
+
+  <section id="contact">
+    <fieldset>
+      <legend><h2>Contact Me</h2></legend>
+
+      <form>
+        <p>
+          <label for="name">Full Name:</label><br />
+          <input id="name" name="name" type="text" size="40" />
+        </p>
+
+        <p>
+          <label for="email">Email:</label><br />
+          <input id="email" name="email" type="email" size="40" />
+        </p>
+
+        <p>Gender:<br />
+          <label><input type="radio" name="gender" value="male" /> Male</label>
+          <label style="margin-left:16px;"><input type="radio" name="gender" value="female" /> Female</label>
+        </p>
+
+        <p>Service Interested:<br />
+          <label><input type="checkbox" name="service" value="seo" /> Seo</label>
+          <label style="margin-left:16px;"><input type="checkbox" name="service" value="webdesign" /> Web design</label>
+        </p>
+
+        <p>
+          <label for="country">Country:</label><br />
+          <select id="country" name="country">
+            <option>USA</option>
+            <option>India</option>
+            <option>UK</option>
+            <option>Canada</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="6" cols="55"></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Send</button>
+          <button type="reset">Clear</button>
+        </p>
+      </form>
+    </fieldset>
+  </section>
+
+  <footer>
+    <p style="text-align:center; margin-top:24px;">
+      Last Updated:
+      <time datetime="2025-08-13">August 13, 2025</time>
+    </p>
+    <p style="text-align:center;">
+      Designed by John Doe<br />
+      Email: <a href="mailto:johndoe@example.com">johndoe@example.com</a>
+    </p>
+    <p style="text-align:center;">&copy; 2025 John Doe. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
